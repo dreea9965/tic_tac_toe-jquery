@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  font-size: 150px;
+
+
+}
+
+table {
+  display: inline-block;
+  border: 2px solid purple;
+  width: 630px;
+  height: 630px;
+  float: right;
+}
+
+tr, td {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+
+
+}
+
+/*td {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+
+}*/
+
+.o {
+  background-image: url('o2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.x {
+  background-image: url('x3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  display: inline-block;
+  padding-left: 15%;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+#reset {
+  font-size: 30px;
+}
