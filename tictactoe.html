@@ -3,39 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Tic Tac Toe</title>
-    <script src="tictactoe.js"></script>
-    <script src="jquery.js"></script>
-
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
-<script>
-$('document').ready(function() {
-  var j = 1;
 
-  $('.button').click(function() {
-
-    if (j === 1){
-      $(this).text('x');
-      j += 1;
-    }
-    else if ( j === 2){
-      // $(this).toggleClass('x');
-      $(this).text('o');
-      j += 1;
-    }
-
-    else {
-      // $(this).toggleClass('o');
-      j = 1;
-    }
-
-    });
+    <script src="jquery.js"></script>
+    <script src="tictactoe.js"></script>
 
 
-});
 
-</script>
 
 
   </head>
@@ -44,27 +20,28 @@ $('document').ready(function() {
 
     <div class= "title">
       <p> Tic Tac Toe  </p>
-     <p id="reset">  Play again!  </p>
+     <button class = "resetButton">  Click to Play again! </button>
   </div>
 
-    <table>
+    <table class = "gameOver">
   <tr>
- <td>  <button id = "1" class="button"> </button> </td>
- <td>  <button id = "2" class="button"> </button> </td>
- <td>  <button id = "3" class="button"> </button> </td>
+ <td>  <button  class="button 1"> </button> </td>
+ <td>  <button  class="button 2"> </button> </td>
+ <td>  <button  class="button 3"> </button> </td>
       </tr>
    <tr>
- <td>  <button id = "4" class="button"> </button> </td>
- <td>  <button id = "5" class="button"> </button> </td>
- <td>  <button id = "6" class="button"> </button> </td>
+ <td>  <button  class="button 4"> </button> </td>
+ <td>  <button  class="button 5"> </button> </td>
+ <td>  <button  class="button 6"> </button> </td>
      </tr>
   <tr>
- <td>  <button id = "7" class="button"> </button> </td>
- <td>  <button id = "8" class="button"> </button> </td>
- <td>  <button id = "9" class="button"> </button> </td>
+ <td>  <button class="button 7"> </button> </td>
+ <td>  <button  class="button 8"> </button> </td>
+ <td>  <button  class="button 9"> </button> </td>
       </tr>
 
     </table>
+
 
   </body>
 </html>
