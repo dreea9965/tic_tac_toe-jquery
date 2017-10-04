@@ -24,7 +24,7 @@
 //
 // });
 
-// 
+//
 // var win_array = [
 //
 //   //horizontal
